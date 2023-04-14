@@ -19,9 +19,10 @@ Uygulama başladığında, bir arama çubuğu görünecektir. Arama çubuğuna �
 ## Canlı Önizleme
 https://react-weather-app-eta-swart.vercel.app
 
-## Contributing
+### Katkıda Bulunma 🤓
 
-Pull request'lerinizi bekliyoruz. Büyük değişiklikler yapmadan önce lütfen tartışma başlatmak için bir konu açın. 
+Katkıda bulunmak isterseniz, lütfen önce bir konu (issue) oluşturunuz. Kodu değiştirdikten sonra, yeni özellikler ekledikten sonra veya hataları düzelttikten sonra bir pull request açarak projeye katkıda bulunabilirsiniz.Büyük değişiklikler yapmadan önce lütfen tartışma başlatmak için bir konu açın. 
+
 
 ## License
 
