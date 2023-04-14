@@ -36,3 +36,167 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.weather-card {
+  flex: 1;
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.weather-card:hover {
+  transform: scale(1.05);
+  transition: 5ms;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  
+}
+
+
+.is-today {
+  border: 2px solid #007bff;
+}
+
+.selected-city {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.temp span {
+  font-size: 16px;
+}
+
+.description {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.image {
+  margin-top: 10px;
+}
+
+.input {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.search {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search:hover {
+  background-color: #3e8e41;
+}
+
+.footer {
+  margin-top: 150px;
+  background-color: #2C2C2C;
+  color: #FFFFFF;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer__title h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.footer__title p {
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.6;
+}
+
+.resim {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+body {
+  background: linear-gradient(to bottom, #ffd54f, #fff, #000);
+}
+
+.weather-card:first-child {
+  border: none;
+}
+
+.weather-card {
+  font-family: 'Roboto', sans-serif; /* örnek bir font seçimi */
+  font-size: 24px;
+  color: #333; /* yazı rengi */
+}
+
+.weather-card h3 {
+  font-size: 28px;
+  color: #0077be; /* başlık rengi */
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  margin-bottom: 5px;
+}
+
+.weather-card .temperature {
+  font-size: 48px; /* sıcaklık yazısının boyutu */
+  color: #ff5733; /* sıcaklık yazısının rengi */
+  font-weight: bold;
+}
+
+.weather-card .description {
+  font-size: 20px;
+  color: #666;
+}
+
