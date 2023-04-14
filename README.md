@@ -13,10 +13,11 @@ Bu, React ile oluşturulmuş basit bir hava durumu uygulamasıdır.
 Uygulama başladığında, bir arama çubuğu görünecektir. Arama çubuğuna şehir adını yazarak hava durumunu arayabilirsiniz. 
 
 ## Ekran Görüntüsü
-----
+![hava2](https://user-images.githubusercontent.com/67739721/232098574-e3d325ad-9c7c-49e9-a5be-f700f2c05acc.png)
+
 
 ## Canlı Önizleme
----
+https://react-weather-app-eta-swart.vercel.app
 
 ## Contributing
 
